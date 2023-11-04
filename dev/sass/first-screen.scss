@@ -1,49 +1,45 @@
 .first-screen-section-2 {
-    background: url(assets/img/first-screen-bg.png);
+	background: url('assets/img/first-screen-bg.png');
 }
-
 .first-screen-section-1 {
-    margin: 158px 85px;
-    h1 {
-        color: var(--black, #07080C);
-    font-family: Jost;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-        }
-    h3 {
-        color: var(--black, #07080C);
-        font-family: Jost;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: 0.32px;
-        max-width: 533px;
-        margin-bottom: 50px;
-    }
-
-
-    
-    .btn-fs {
-        border: none;
-        padding: 17px 77px;
-        background-color: #F48F45;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-
-        /* CTA */
-        font-family: Jost;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: 0.36px;
-            }
-        
+	margin: 158px 85px;
+	h1 {
+	    color: var(--black, #07080c);
+	    font-family: Jost;
+		font-size: 50px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+	h3 {
+		color: var(--black, #07080c);
+		font-family: Jost;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		letter-spacing: 0.32px;
+		max-width: 533px;
+		margin-bottom: 50px;
+	}
 }
+
+.button-fs {
+	width: 320px;
+	line-height: 60px;
+	background-color: #f48f45;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-family: Jost;
+	font-size: 18px;
+	letter-spacing: 0.36px;
+	transform: skewX(-20deg);
+	p {
+	transform: skew(20deg);
+	}
+}
+
