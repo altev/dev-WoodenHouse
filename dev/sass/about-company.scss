@@ -30,6 +30,23 @@
     background-position: center center;
     width: 100%;
     height: 1000px;
-   
+}
+.advantages-bg {
+    background: url('assets/img/advantages-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 376px;
+}
+.row-adv {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.template-item-box {
+    width: 250px;
     
+    text-align: center;
 }
