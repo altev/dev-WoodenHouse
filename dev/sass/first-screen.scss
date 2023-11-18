@@ -1,3 +1,32 @@
+.first-screen.container {
+	background: url(assets/img/first-screen-bg.png);
+	// height: calc(100vh - 100px);
+	height: 800px;
+	background-repeat: no-repeat;
+}
+.template-title{
+	position: relative;
+}
+.decoration-title::before,
+.decoration-title::after {
+  content: "";
+  position: absolute;
+  top: 65%;
+  height: 2px;
+  width: 50px;
+  background-color: black;
+}
+
+.decoration-title::before {
+  left: 50px; /* Расстояние от левой стороны заголовка */
+  transform: translateY(-50%);
+}
+
+.decoration-title::after {
+  right: 50px; /* Расстояние от правой стороны заголовка */
+  transform: translateY(-50%);
+}
+
 .first-screen {
 	h1 {
 		color: #07080C;
@@ -65,9 +94,10 @@
 .achievements::after {
   content: '';
   position: absolute;
-  width: calc(100% + 10px);
+  width: 100%;
   height: 2px; 
   background-color: $primary-color; 
+  z-index: -1;
 }
 
 .achievements::before {
@@ -79,19 +109,19 @@
 }
 
 
-.img-box {
-    position: relative;
-}
 //треугольник  чтоб перекрыть картинку. 
-.img-box:before {
-content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 0;
-    height: 0;
-    border: 0 solid transparent;
-    border-right-width: 196px;
-    border-left-width: 0px;
-    border-top: 912px solid black;
-}
+// .img-box {
+//     position: relative;
+// }
+// .img-box:before {
+// content: "";
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 0;
+//     height: 0;
+//     border: 0 solid transparent;
+//     border-right-width: 196px;
+//     border-left-width: 0px;
+//     border-top: 912px solid black;
+// }

@@ -1,0 +1,38 @@
+.stages h2 {
+    text-align: left;
+    padding: 100px 0 40px;
+    color: #07080C;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+.stages .wrapper-card {
+    display: flex;
+    flex-direction: row;
+}
+.stages .card-item {
+    position: relative;
+}
+.stages img {
+      width: 340px; /* Ширина изображения */
+      height: auto; /* Автоматическая высота для сохранения пропорций */
+      display: block;
+      z-index: -1;
+    }
+.stages .card-content {
+      position: absolute;
+      top: 50%; /* Позиционирование текста по вертикали */
+      left: 50%; /* Позиционирование текста по горизонтали */
+      transform: translate(-50%, -50%); /* Центрирование текста */
+    }
+.stages .card-content {
+    color: #FFFDFA;
+    h3 {
+        margin: 50px 100px 120px;
+        text-align: left;
+    }
+    p {
+        margin: 0 47px 55px;
+    }
+}
