@@ -79,3 +79,19 @@
 }
 
 
+.img-box {
+    position: relative;
+}
+//треугольник  чтоб перекрыть картинку. 
+.img-box:before {
+content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 196px;
+    border-left-width: 0px;
+    border-top: 912px solid black;
+}
